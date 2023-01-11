@@ -1,0 +1,84 @@
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+  }
+
+ul{
+    list-style-type: none;
+
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin: 0;
+    padding-left: 250px;
+    padding-right: 128px;
+    padding-top: 16px;
+    background: darkblue;
+    color: white;
+    font-size: 16px;
+;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.hlogo{
+    font-size: 25px;
+    font-weight: 800
+}
+
+.links{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    margin-left: auto;
+    gap: 25px;
+}
+
+.top{
+  display: flex;
+}
+
+.big{
+  font-size: 60px;
+  font-weight: 800
+}
+.mon{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    margin-right: 100px;
+    gap: 16px;
+}
+
+.foto{
+  display: flex;
+  flex-shrink: 0;
+  background-color: gray;
+  width: 500px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cen{
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.boto{
+  width: 120px;
+  height: 40px;
+  background-color: lightskyblue;
+  border: none;
+  border-radius: 8px;
+}
