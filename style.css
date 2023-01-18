@@ -3,6 +3,8 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
 ul{
@@ -14,7 +16,7 @@ ul{
 .header {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 550px;
     margin: 0;
     padding-left: 250px;
     padding-right: 128px;
@@ -81,4 +83,45 @@ a{
   background-color: lightskyblue;
   border: none;
   border-radius: 8px;
+}
+
+.second{
+  background-color: white;
+  height: 550px;
+  text-align: center;
+  
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 40px;
+  margin-bottom: 65px;
+}
+
+.container{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box{
+  width: 160px;
+  height: 160px;
+  border: solid blue 4px;
+  border-radius: 16px;
+  margin: 16px;
+}
+.text {
+  max-width: 140px;
+}
+
+.third{
+  background-color: lightgrey;
+  height: 550px;
 }
